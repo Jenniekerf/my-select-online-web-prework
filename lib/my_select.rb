@@ -3,7 +3,6 @@ def my_select(collection)
  empty_array = []
  while i < collection.length 
  empty_array << yield(collection[i])
- if collection.even?
 i += 1 
 end
 empty_array
